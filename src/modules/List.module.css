@@ -1,0 +1,92 @@
+.container{
+
+    width: 720px;
+    margin-top: 50px;
+
+}
+*{
+
+    box-sizing: border-box;
+   
+}
+
+.table{
+
+    user-select: none;
+    border-collapse: collapse;
+   
+    width: 100%;
+}
+
+.thead{
+    font-weight: 900;
+    background-color: #7D9FA4 !important;
+    color: white;
+
+}
+.table td{
+
+    border: 2px solid rgba(0, 0, 0, 0.295);
+    padding:10px 15px;
+    
+}
+
+
+.match{
+
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.match:hover{
+
+    background-color: yellow;
+    color: black;
+
+}
+
+td > svg{
+
+    width: 20px;
+    cursor: pointer;
+    fill: rgba(0, 0, 0, 0.349);
+
+}
+.matchactive{
+
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+.matchactive:active{
+
+    background-color: red;
+    color: white;
+
+}
+/* 224 */
+
+.countryFlag{
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.titleLig{
+
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.sublist{
+
+    background-color: #FFFFFF;
+    color: #1F4E56;
+    font-weight: bold;
+
+}

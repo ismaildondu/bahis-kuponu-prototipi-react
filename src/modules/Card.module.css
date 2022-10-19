@@ -1,0 +1,257 @@
+.card{
+
+  
+    width: 224px;
+
+
+}
+
+.margin{
+
+    margin-top: 50px;
+
+}
+
+.cardheader{
+
+  
+    background-color: #193d44;
+    color: white;
+    padding: 15px;
+    display: flex;
+ 
+    justify-content: space-between;
+}
+
+.cardheader>h1{
+
+    font-size: 20px ;
+}
+.matchcard{
+
+    background-color: #fff;
+    padding: 0 15px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid  #193d44;;
+
+}
+
+
+.matchtitlecard{
+    
+    padding: 10px;
+    font-size: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+
+
+.matchlenght{
+
+    background-color: #FFCC00;
+    color: black;
+    font-size: 12px !important;
+    border-radius: 50%;
+    padding: 5px 10px;
+
+}
+
+.noMatch{
+
+    text-align: center;
+    color: #4e6c76
+    !important;
+
+}
+
+.matchActiveHeader{
+
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+
+.matchActiveHeader  h1{
+
+    font-size: 12px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 145px;
+
+}
+.matchActiveHeader > div{
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.matchActiveHeader > p{
+
+    cursor: pointer;
+    user-select: none;
+
+}
+
+.matchActiveHeader img{
+    user-select: none;
+
+}
+
+.matchActiveHeaderMiddle{
+
+
+display: flex;
+gap: 15px;
+
+}
+.matchActiveHeaderMiddle > h1{
+    margin-top: 2px;
+    font-size: 10px;    
+    color: #28616b;
+
+}
+.matchActiveHeaderBottom{
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+
+}
+
+.matchActiveHeaderBottom > div{
+
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.matchActiveHeaderBottom > h1{
+
+    font-size: 11px;
+    color: #313131;
+  
+   
+
+}   
+
+.matchBottomWidgetVan{
+
+    font-size: 12px;
+    color: black;
+    background-color: #E9E9E9;
+    width: 100%;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.matchBottomWidgetTwo{
+
+    font-size: 12px;
+    color: white;
+    background-color: #46666C;
+  
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+.cardBottom{
+
+    background-color: white;
+ 
+}
+
+.cardBottomWidgetVan{
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    height: 100%;
+ 
+}
+.widgetFirstBorder{
+    border-right: 1px solid rgba(133, 133, 133, 0.356);
+    flex-grow: 4;
+    border-bottom: 1px solid rgba(133, 133, 133, 0.411);
+}
+
+.maxRev{
+
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.maxRev>h2{
+    color: #4e6c76;
+    font-size: 12px;
+
+}
+.maxRev>h1{
+
+    color: #2ca3b7;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+
+.cardBottomWidgetSecond{
+    flex-grow: 6;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    border-bottom: 1px solid rgba(133, 133, 133, 0.411);
+}
+.cardBottomWidgetSecond > p {
+
+    font-size: 13px;
+    color: #4e6c76;
+
+}
+.cardBottomWidgetSecond > select{
+
+    width: 100%;
+    text-align: end;
+    padding: 3px;
+}
+
+.cardBottom{
+
+    display: flex;
+   
+
+}
+
+.cardBottomWidgetVan > p{
+
+    font-size: 12px;
+    
+    color: #4e6c76;
+
+}
+.cardBottomWidgetVan > h1{
+
+font-size: 16px;
+font-weight: bold;
+
+}
